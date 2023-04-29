@@ -18,10 +18,10 @@ define('BASE_URL', $BASE_URL);
 /**
  * Configuration for database
  */
-$HOSTNAME = (PRODUCTION) ? "" : "localhost";
-$USERNAME = (PRODUCTION) ? "" : "root";
-$PASSWORD = (PRODUCTION) ? "" : "";
-$DATABASE = (PRODUCTION) ? "" : "blood_bank";
+$HOSTNAME = (PRODUCTION) ? "" : "us-cdbr-east-06.cleardb.net";
+$USERNAME = (PRODUCTION) ? "" : "bd8f3d5184cab8";
+$PASSWORD = (PRODUCTION) ? "" : "1ed301c5";
+$DATABASE = (PRODUCTION) ? "" : "heroku_1ae4648204648de";
 $PREFIX   = (PRODUCTION) ? "" : "bb_";
 
 define('HOSTNAME', $HOSTNAME);
